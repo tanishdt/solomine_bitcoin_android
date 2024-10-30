@@ -4,7 +4,7 @@
 cd ~
 
 # Install cpuminer_android from GitHub
-curl -L https://github.com/tanish_dt/cpuminer_android/raw/main/install.sh | bash
+curl -L https://github.com/tanishdt/cpuminer_android/raw/main/install.sh | bash
 
 # Return to the home directory
 cd ~
