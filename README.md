@@ -41,7 +41,7 @@ The `setup.sh` script performs the following steps:
 3. **Create the bitcoin.sh Script**:
     - A new script, `bitcoin.sh`, is created in the `cpuminer-multi` directory. This script contains the command to run the CPU miner:
       ```bash
-      ./cpuminer --algo sha256d --url stratum+tcp://public-pool.io:21496 --user bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git --pass x --threads 8
+      ./cpuminer --algo sha256d --url stratum+tcp://solo.ckpool.org:3333 --user bc1qmffl7e9m9hyar49wda34k6trgx08u6v48gwedq.random_git --pass x --threads 8
       ```
 
 4. **Make Scripts Executable**:
